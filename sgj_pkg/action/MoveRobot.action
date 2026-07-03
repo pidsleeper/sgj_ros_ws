@@ -1,0 +1,13 @@
+# 目标：机器人导航到指定位置
+float32 target_x   # 目标 X 坐标
+float32 target_y   # 目标 Y 坐标
+---
+# 结果：最终到达位置
+float32 final_x    # 最终 X 坐标
+float32 final_y    # 最终 Y 坐标
+float32 elapsed    # 耗时(秒)
+---
+# 反馈：移动过程中实时位置
+float32 current_x  # 当前 X 坐标
+float32 current_y  # 当前 Y 坐标
+float32 distance_remaining  # 剩余距离

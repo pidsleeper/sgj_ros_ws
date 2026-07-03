@@ -1,0 +1,8 @@
+# 请求：计算学生成绩等级
+float32[] scores   # 各科成绩
+
+---
+# 响应：平均分和等级
+float32 average    # 平均分
+string grade       # 等级 (A/B/C/D/F)
+bool passed        # 是否及格
